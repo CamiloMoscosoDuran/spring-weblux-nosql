@@ -6,9 +6,9 @@ spring:
     name: spring-webflux-nosql
   data:
     mongodb:
-      database: Proyecto_db
-      uri: mongodb+srv://camilomoscoso_db_user:yrUu0Vjfdix6t9Wh@cluster0.wpwjkvt.mongodb.net/?appName=Cluster0
-
+      database: database_local
+      #uri: mongodb+srv://camilomoscoso_db_user:yrUu0Vjfdix6t9Wh@cluster0.wpwjkvt.mongodb.net/?appName=Cluster0   #MongoDB Atlas (Cluod)
+      uri: mongodb://admin:admin12345@localhost:27017/?authSource=admin   #MondoDB Container (Local)
 
 springdoc:
   api-docs:
